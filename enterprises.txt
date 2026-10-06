@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G1 Enterprise - Job Application</title>
+</head>
+
+<body>
+
+    <!-- Company Header -->
+    <header>
+        <h1>G1 ENTERPRISE</h1>
+        <p>Where Excellence Begins</p>
+        <hr>
+    </header>
+
+    <!-- Application Opening -->
+    <section>
+        <h2>JOB APPLICATION OPENING</h2>
+
+        <p>
+            G1 Enterprise is currently accepting applications from
+            qualified and hardworking individuals for available positions
+            in our company.
+        </p>
+
+        <h3>Available Positions</h3>
+
+        <ul>
+            <li>Software Developer</li>
+            <li>Web Developer</li>
+            <li>Computer Engineer</li>
+            <li>Data Analyst</li>
+            <li>IT Support Officer</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Application Form -->
+    <section>
+        <h2>Application Form</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label>First Name:</label><br>
+                <input type="text" placeholder="Enter your first name" required>
+                <br><br>
+
+                <label>Surname:</label><br>
+                <input type="text" placeholder="Enter your surname" required>
+                <br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="example@gmail.com" required>
+                <br><br>
+
+                <label>Phone Number:</label><br>
+                <input type="tel" placeholder="08012345678" required>
+                <br><br>
+
+                <label>Date of Birth:</label><br>
+                <input type="date" required>
+                <br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <br><br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Job Information</legend>
+
+                <label>Position Applying For:</label><br>
+
+                <select required>
+                    <option value="">-- Select Position --</option>
+                    <option>Software Developer</option>
+                    <option>Web Developer</option>
+                    <option>Computer Engineer</option>
+                    <option>Data Analyst</option>
+                    <option>IT Support Officer</option>
+                </select>
+
+                <br><br>
+
+                <label>Highest Qualification:</label><br>
+                <select>
+                    <option>SSCE</option>
+                    <option>ND</option>
+                    <option>HND</option>
+                    <option>Bachelor's Degree</option>
+                    <option>Master's Degree</option>
+                </select>
+
+                <br><br>
+
+                <label>Years of Experience:</label><br>
+                <input type="number" min="0" placeholder="e.g. 2">
+                <br><br>
+
+                <label>Tell us about yourself:</label><br>
+                <textarea rows="6" cols="40"
+                    placeholder="Write something about yourself..."></textarea>
+
+                <br><br>
+
+                <label>Upload CV:</label><br>
+                <input type="file">
+                <br><br>
+
+            </fieldset>
+
+            <br>
+
+            <input type="checkbox" required>
+            I confirm that the information provided is correct.
+
+            <br><br>
+
+            <input type="submit" value="SUBMIT APPLICATION">
+            <input type="reset" value="CLEAR FORM">
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <h3>G1 ENTERPRISE</h3>
+        <p>Email: info@g1enterprise.com</p>
+        <p>Phone: +234 800 000 0000</p>
+        <p>&copy; 2026 G1 Enterprise. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
